@@ -25,7 +25,9 @@ export const getMonth = (num) => {
         'December',
     ];
 
-    if(num <= 0 || num > 12) {
+    if(typeof num === 'string') {
+        return 'Invalid parameter, please add number!'
+    } else if(num <= 0 || num > 12) {
         return 'Invalid number!';
     } else {
         return months[num - 1];
