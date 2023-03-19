@@ -1,13 +1,14 @@
-//Напишите программу, которая спрашивает у пользователя его имя и фамилию с помощью prompt и отвечает: Привет, {имя} {фамилия}! с помощью alert.
+/*Задание 2. Выбрать любую реализованную функцию из тренажера JavaScript, раздел «Функции»
 
-export const greetingFn = () => {
-    let name =  prompt('What is your name?');
-    let lastName = prompt('What is you last name?');
-    
-    if(name === '' || lastName === '' ) {
-        return name = alert('Empty input, please, restart and try again');
-      };
+добавить ее в репозиторий;
+продумать тест-кейсы (успешное/неуспешное выполнение функции);
+продумать корнер-кейсы; 
+написать unit-тесты (минимум 3).
+Удачи! */
 
 
-    alert(`Hi, ${name} ${lastName}`);
+//Напишите функцию getPercents(percent, number), которая возвращает {percent} процентов от {number}.
+
+export const getPercents = (percent, number) => {
+
 };
